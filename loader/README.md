@@ -3,7 +3,7 @@
 README นี้สรุปเฉพาะวิธีใช้งาน `client.lua` สำหรับ user
 
 ## ฟังก์ชันที่ใช้ได้
-## คำแนะแนนำถ้า messages duplicate จะไม่ถูก update!
+## "messages ที่ซ้ำกันจะไม่ถูก update"
 
 ส่งคำอธิบายสถานะ `Set Description`:
 
