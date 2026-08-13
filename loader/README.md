@@ -29,7 +29,7 @@ local json_payload = {
     },
 
     ['Melee'] = "[6/7]",
-    ['Levle'] = "200" 
+    ['Level'] = "200" 
 }
 _G.Masterp_Description(string.format("data: %s", messages), json_payload)
 ```
