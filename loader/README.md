@@ -17,7 +17,7 @@ _G.Masterp_Description(string.format("data: %s", messages))
 ส่งคำอธิบายสถานะ และ ข้อมูลชีท `Set Description & Google Sheet Data` :
 
 ```lua
-_G.Masterp_Description("messages", json_payload) -- function
+_G.Masterp_Description("messages", json_payload) -- function ( ส่งแค่คำอธิบาย )
 
 -- example
 local messages = "masterp"
@@ -31,7 +31,7 @@ local json_payload = {
     ['Melee'] = "[6/7]",
     ['Level'] = "200" 
 }
-_G.Masterp_Description(string.format("data: %s", messages), json_payload)
+_G.Masterp_Description(string.format("data: %s", messages), json_payload)  ( ส่งคำอธิบายและชีท )
 ```
 
 แจ้งว่างานเสร็จแล้ว `Set Done`:
