@@ -6,6 +6,7 @@
   <img src="https://img.shields.io/badge/platform-Windows-0f0f11?style=flat-square" alt="Windows">
   <img src="https://img.shields.io/badge/Roblox-client-8b93ff?style=flat-square&logo=roblox&logoColor=white" alt="Roblox">
   <img src="https://img.shields.io/badge/Lua-loader-60a5fa?style=flat-square&logo=lua&logoColor=white" alt="Lua">
+  <a href="https://masterpx.xyz/"><img src="https://img.shields.io/badge/website-masterpx.xyz-4ade80?style=flat-square" alt="Website"></a>
 </p>
 
 <p align="center">
@@ -74,4 +75,4 @@ loader/
 
 ---
 
-<p align="center"><sub>Made by <b>Masterp</b></sub></p>
+<p align="center"><sub>Made by <b>Masterp</b> · <a href="https://masterpx.xyz/">masterpx.xyz</a></sub></p>
