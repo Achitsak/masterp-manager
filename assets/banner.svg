@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-label="Masterp Manager — Roblox account manager">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f0f11"/>
+      <stop offset="1" stop-color="#15151c"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.18" cy="0.2" r="0.7">
+      <stop offset="0" stop-color="#8b93ff" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#8b93ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0.9" cy="0.95" r="0.6">
+      <stop offset="0" stop-color="#4ade80" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#4ade80" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ededf0"/>
+      <stop offset="1" stop-color="#b8bcff"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b93ff"/>
+      <stop offset="1" stop-color="#60a5fa"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="400" fill="url(#bg)"/>
+  <rect width="1280" height="400" fill="url(#grid)"/>
+  <rect width="1280" height="400" fill="url(#glow)"/>
+  <rect width="1280" height="400" fill="url(#glow2)"/>
+
+  <!-- left: wordmark -->
+  <g font-family="'Segoe UI', Inter, 'Helvetica Neue', Arial, sans-serif">
+    <rect x="80" y="104" width="44" height="44" rx="12" fill="url(#accent)"/>
+    <path d="M91 138V114l11 13 11-13v24" fill="none" stroke="#0f0f11" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="140" y="137" font-size="20" font-weight="600" fill="#a1a1aa" letter-spacing="3">MASTERP</text>
+
+    <text x="78" y="222" font-size="68" font-weight="800" fill="url(#title)" letter-spacing="-1.5">Masterp Manager</text>
+    <text x="80" y="266" font-size="24" fill="#a1a1aa">Roblox account manager for 24/7 farming</text>
+
+    <g font-size="15" font-weight="600">
+      <rect x="80" y="296" width="150" height="34" rx="17" fill="#8b93ff" fill-opacity="0.14" stroke="#8b93ff" stroke-opacity="0.45"/>
+      <text x="155" y="318" text-anchor="middle" fill="#c7cbff">Auto Re-Launch</text>
+      <rect x="242" y="296" width="140" height="34" rx="17" fill="#4ade80" fill-opacity="0.12" stroke="#4ade80" stroke-opacity="0.45"/>
+      <text x="312" y="318" text-anchor="middle" fill="#a7f3c4">Farm Tracking</text>
+      <rect x="394" y="296" width="150" height="34" rx="17" fill="#60a5fa" fill-opacity="0.12" stroke="#60a5fa" stroke-opacity="0.45"/>
+      <text x="469" y="318" text-anchor="middle" fill="#bcdcff">Lua Client API</text>
+    </g>
+  </g>
+
+  <!-- right: account grid mock -->
+  <g transform="translate(760 72)" filter="url(#soft)">
+    <rect width="440" height="256" rx="16" fill="#18181b" stroke="#2a2a30"/>
+    <circle cx="22" cy="22" r="5" fill="#f87171"/>
+    <circle cx="40" cy="22" r="5" fill="#facc15"/>
+    <circle cx="58" cy="22" r="5" fill="#4ade80"/>
+    <line x1="0" y1="44" x2="440" y2="44" stroke="#2a2a30"/>
+
+    <g font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="14">
+      <g transform="translate(20 62)">
+        <rect width="400" height="38" rx="8" fill="#1f1f24"/>
+        <circle cx="18" cy="19" r="5" fill="#4ade80"/>
+        <text x="34" y="24" fill="#ededf0">farm_alt_01</text>
+        <text x="236" y="24" fill="#a1a1aa">Lv 2450</text>
+        <text x="384" y="24" text-anchor="end" fill="#4ade80">ACTIVE</text>
+      </g>
+      <g transform="translate(20 108)">
+        <rect width="400" height="38" rx="8" fill="#1f1f24"/>
+        <circle cx="18" cy="19" r="5" fill="#4ade80"/>
+        <text x="34" y="24" fill="#ededf0">farm_alt_02</text>
+        <text x="236" y="24" fill="#a1a1aa">Lv 1980</text>
+        <text x="384" y="24" text-anchor="end" fill="#4ade80">ACTIVE</text>
+      </g>
+      <g transform="translate(20 154)">
+        <rect width="400" height="38" rx="8" fill="#1f1f24"/>
+        <circle cx="18" cy="19" r="5" fill="#facc15"/>
+        <text x="34" y="24" fill="#ededf0">farm_alt_03</text>
+        <text x="236" y="24" fill="#a1a1aa">rejoin…</text>
+        <text x="384" y="24" text-anchor="end" fill="#facc15">RELAUNCH</text>
+      </g>
+      <g transform="translate(20 200)">
+        <rect width="400" height="38" rx="8" fill="#1f1f24"/>
+        <circle cx="18" cy="19" r="5" fill="#8b93ff"/>
+        <text x="34" y="24" fill="#ededf0">farm_alt_04</text>
+        <text x="236" y="24" fill="#a1a1aa">Melee 7/7</text>
+        <text x="384" y="24" text-anchor="end" fill="#8b93ff">DONE</text>
+      </g>
+    </g>
+  </g>
+</svg>
