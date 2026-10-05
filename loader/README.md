@@ -69,3 +69,7 @@ if money >= 100 then
     _G.Masterp_Done()
 end
 ```
+
+---
+
+<p align="center"><sub>Made by <b>Masterp</b> · <a href="https://masterpx.xyz/">masterpx.xyz</a></sub></p>
