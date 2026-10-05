@@ -30,8 +30,21 @@
 ใส่ loader ใน executor (auto-execute):
 
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Achitsak/masterp-manager/main/loader/client.lua"))()
+repeat task.wait() until game:IsLoaded()
+repeat task.wait() until game.Players.LocalPlayer
+
+_G.MasterpSettings = {
+    ['Performance'] = false,
+    ['UnlockFPS']  = { ['Enable'] = false, ['TargetFps']  = 10 }
+}
+loadstring(game:HttpGet("https://cdn.masterpx.xyz/s/masterp-manager/client", true))()
 ```
+
+| Setting | ความหมาย |
+|---|---|
+| `Performance` | เปิด/ปิดโหมด Performance |
+| `UnlockFPS.Enable` | เปิด/ปิดการตั้ง FPS |
+| `UnlockFPS.TargetFps` | FPS ที่ต้องการ |
 
 ส่งสถานะจากสคริปต์ฟาร์มของคุณ:
 
@@ -52,7 +65,7 @@ _G.Masterp_Done()                     -- แจ้งว่าฟาร์มเ
 
 ```
 loader/
-├── client.lua        # entry point (loadstring this)
+├── client.lua        # legacy entry (redirects to the CDN loader)
 ├── README.md         # client API
 ├── profiles/         # per-game scripts
 ├── services/         # shared helpers (webhook, …)
