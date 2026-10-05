@@ -56,12 +56,6 @@ _G.Masterp_Done()                     -- แจ้งว่าฟาร์มเ
 
 📖 API ทั้งหมด (รวมการส่งข้อมูลขึ้น Google Sheet) → [`loader/README.md`](loader/README.md)
 
-## 🎮 Profiles
-
-สคริปต์สำเร็จรูปใน [`loader/profiles`](loader/profiles):
-
-`AOTR` · `BLOCKSPIN` · `BLOXFRUIT` · `FISCH` · `GROWAGARDEN2`
-
 ## 📁 Structure
 
 ```
