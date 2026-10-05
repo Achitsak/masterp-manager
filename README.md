@@ -61,10 +61,9 @@ _G.Masterp_Done()                     -- แจ้งว่าฟาร์มเ
 ```
 loader/
 ├── client.lua        # legacy entry (redirects to the CDN loader)
+├── performance.lua
 ├── README.md         # client API
-├── profiles/         # per-game scripts
-├── services/         # shared helpers (webhook, …)
-└── automation/
+└── profiles/         # per-game scripts
 ```
 
 ---
